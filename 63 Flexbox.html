@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .flex-ctn{
+        display: flex;
+        background-color: dodgerblue;
+        margin-top: 10px;
+      }
+      .flex-ctn > div{
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+      .direction-flex-column{flex-direction: column;}
+      .direction-flex-column-reverse{flex-direction: column-reverse;}
+      .direction-flex-row{flex-direction: row;}
+      .direction-flex-row-reverse{flex-direction: row-reverse;}
+    </style>
+  </head>
+  <body>
+    
+    <div class="flex-ctn">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+
+    <div class="flex-ctn direction-flex-column">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <div class="flex-ctn direction-flex-column-reverse">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <div class="flex-ctn direction-flex-row">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <div class="flex-ctn direction-flex-row-reverse">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+
+  </body>
+</html>
